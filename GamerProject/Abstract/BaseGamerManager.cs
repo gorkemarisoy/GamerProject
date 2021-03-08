@@ -5,7 +5,7 @@ using GamerProject.Entities;
 
 namespace GamerProject.Abstract
 {
-    public abstract class BaseGamerManager:IGamerService
+    public abstract class BaseGamerManager:IGamerService            //
     {
         public virtual void Save(Gamer gamer)
         {

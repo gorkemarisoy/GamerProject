@@ -5,9 +5,9 @@ using GamerProject.Entities;
 
 namespace GamerProject.Abstract
 {
-    public interface ISalesService
+    public interface ISalesService      //Sales için Sale ve CampaignSale işlemlerini tanımladığımız Interface
     {
-        public void Sale(Gamer gamer, Game game);
-        public void CampaignSale(Gamer gamer, Game game, Kampanya kampanya);
+        public void Sale(Gamer gamer, Game game);   //normal satışta satace Gamer ve Game
+        public void CampaignSale(Gamer gamer, Game game, Kampanya kampanya); //kampanyalı satışta Kampanya'da parametreler arasında
     }
 }

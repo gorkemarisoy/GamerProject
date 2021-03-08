@@ -5,7 +5,7 @@ using GamerProject.Entities;
 
 namespace GamerProject.Abstract
 {
-  public  interface IGameService
+  public  interface IGameService            //Game için save update delete işlemlerini tanımladığımız interface
   {
       public void Add(Game game);
       public void Update(Game game);
